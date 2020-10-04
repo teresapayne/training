@@ -1,0 +1,51 @@
+.wrap {
+  margin: 0 auto;
+  width: 400px;
+}
+.calculator {
+  background-color: black;
+}
+section {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+button {
+  background-color: #d8d9db;
+  border: 0 none;
+  border-radius: 0;
+  font-size: 2em;
+  height: 100px;
+  width: 24.5%;
+}
+.row {
+  align-content: stretch;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: .5%;
+  width: 100%;
+}
+.row button:last-child {
+  background-color: #df974c;
+  color: #fff;
+}
+
+.clear {
+  width: 49.7%;
+}
+
+.results {
+  color: white;
+  display: block;
+  font-size: 40px;
+  font-family: "Courier New", Courier, monospace;
+  text-align: right;
+  padding: 20px 5px;
+  width: inherit;
+}
+
+
+
+.footer button:first-child {
+  width: 74.5%;
+}

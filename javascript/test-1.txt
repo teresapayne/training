@@ -1,0 +1,19 @@
+1. need to know yearly rent if monthly is 500
+2. create sentence template with multiple variables and print to console
+3. create boolean statement followed by if else testing
+4. if else statement with comparison
+5. using let and a for loop
+6. create an object and then call one of the attributes in console
+7. create multiple objects and then compare them in a function with an argument if else statements
+8. count something using substr
+9. create an object with properties and then call a function in it using this- print to console
+10. create an array, then using push add another object to it, then replace an object
+11. create an array and use two methods to console.log the array
+12. create an HTML list (like your dropdown) with classes, using the DOM, grab anything with that class using a
+for loop, move it into another array variable and apply something to it
+13. create a button with a class, using querySelector set an click event listener and pop open alert box on click
+14. do the same with keyup
+15. do the same with change (mega menu?)
+16. create a list of buttons with numbers on them and parent container class. using event bubbling and a listener on the parent container
+and create an alert listed the button pushed. 
+17. console log type example

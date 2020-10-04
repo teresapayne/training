@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+.ta-c {
+    text-align: center;
+}
+.fw-n {
+    font-weight: normal;
+}
+ .d-b {
+     display: block;
+ }
+ .tt-c {
+     text-transform: capitalize;
+ }
+ .mb-10 {
+     margin-bottom: 10px;
+ }
+ 
+
+.inner {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+.wrapper {
+    border: 1px solid black;
+    display: flex;
+    width: 1180px;
+}
+
+.col {
+    border: 1px solid black;
+    flex-direction: column;
+    padding: 10px;
+    width: 25%;
+}
+
+
+.w-50 {
+    width: 50%;
+}
+
+.center {
+    width: 500px;
+}
+
+.w-75 {
+    width: 75%;
+}
+
+ul {
+    align-items: stretch;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+ul li {
+    align-items: center;
+    display: flex;
+    flex: 1 100%;
+    padding: 10px;
+}
+a {
+    font-weight: bold;
+    color: tan;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+}
+ul li:nth-child(1)  {
+    background-color:yellow;
+}
+ul li:nth-child(2)  {
+    background-color:cyan;
+}
+ul li:nth-child(3)  {
+    background-color:green;
+}
+ul li:nth-child(4) {
+    background-color: blue;
+}
+ul li:nth-child(5) {
+    background-color: blueviolet
+}
+.p-0 {
+    padding: 0;
+}
